@@ -3,8 +3,8 @@
 Plugin Name: Tom's Guide Download
 Plugin URI: http://www.tomsguide.com/widgets/
 Description: Display the download contents from Tom's Guide
-Author: Automattic
-Author URI: http://automattic.com/wordpress-plugins/
+Author: Best of Media
+Author URI: http://www.tomsguide.com/
 Version: 1.0.0
 License: GPLv2 or later
 */
