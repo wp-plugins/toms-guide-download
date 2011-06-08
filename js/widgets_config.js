@@ -66,11 +66,13 @@ jQuery(document).ready(function() {
       formData[formParams[i].name] = formParams[i].value || '';
     }
     var now = new Date();
-    randomId = now.getTime();
-    dldIdSite = formData.dldSource !=''?20:21;
+    var randomId = now.getTime();
+    var dldIdSite = formData.dldSource !=''?20:21;
+    var categId = '#dldCateg'+(formData.dldSource!=''?'-':'')+formData.dldSource;
     var tguListingUrl = dldBaseUrl[dldIdSite]+softwareLang[dldIdSite];
-    if(formData.dldCateg!=''){
-      tguListingUrl += '-'+jQuery('#dldCateg option:eq('+jQuery('#dldCateg').get(0).selectedIndex+')').attr('rel')+',0702-'+formData.dldCateg+'.html';
+    if(jQuery(categId).val()!=''){
+      console.log(jQuery(categId+' option:eq('+jQuery(categId).get(0).selectedIndex+')'));
+      tguListingUrl += '-'+jQuery(categId+' option:eq('+jQuery(categId).get(0).selectedIndex+')').attr('rel')+',0702-'+formData.dldCateg+'.html';
     } else {
       tguListingUrl += ',0701-5.html';
     }
