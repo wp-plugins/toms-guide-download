@@ -64,7 +64,7 @@ function tomsguideWidget_admin() //WIDGET ADMIN PANEL
         <p>
           <label for="dldOs"><strong><?php _e('Operating System','tomsguide-widget'); ?>: </strong></label><br/>
           <select id="dldOs" name="dldOs">
-            <option value=""<?php echo $opts['dldOs']==""?" selected=\"selected\"":""; ?>><?php _e('All','tomsguide-widget'); ?></option>
+            <option value=""<?php echo $opts['dldOs']==""?" selected=\"selected\"":""; ?>"><?php _e('All','tomsguide-widget'); ?></option>
             <?php foreach ($arrOs as $Os){ ?>
             <option value="<?php echo $Os; ?>"<?php echo $opts['dldOs']==$Os?" selected=\"selected\"":""; ?>><?php echo $Os; ?></option>
             <?php } ?>
@@ -82,7 +82,7 @@ function tomsguideWidget_admin() //WIDGET ADMIN PANEL
           <select id="dldCateg" name="dldCateg"<?php echo $opts['dldSource']=="fr_FR"?" disabled=\"disabled\"":""; ?>>
             <option value=""><?php _e('All','tomsguide-widget'); ?></option>
             <?php foreach ($arrCateg[''] as $categ){ ?>
-            <option value="<?php echo $categ['id']; ?>"<?php echo $opts['dldCateg']==$categ['id']?" selected=\"selected\"":""; ?>><?php echo $categ['label']; ?></option>
+            <option value="<?php echo $categ['id']; ?>"<?php echo $opts['dldCateg']==$categ['id']?" selected=\"selected\"":""; ?> rel="<?php echo $categ['slug']; ?>"><?php echo $categ['label']; ?></option>
             <?php } ?>
           </select>
         </p>
@@ -91,7 +91,7 @@ function tomsguideWidget_admin() //WIDGET ADMIN PANEL
           <select id="dldCateg-fr_FR" name="dldCateg"<?php echo $opts['dldSource']!="fr_FR"?" disabled=\"disabled\"":""; ?>>
             <option value=""><?php _e('All','tomsguide-widget'); ?></option>
             <?php foreach ($arrCateg['fr_FR'] as $categ){ ?>
-            <option value="<?php echo $categ['id']; ?>"<?php echo $opts['dldCateg']==$categ['id']?" selected=\"selected\"":""; ?>><?php echo $categ['label']; ?></option>
+            <option value="<?php echo $categ['id']; ?>"<?php echo $opts['dldCateg']==$categ['id']?" selected=\"selected\"":""; ?> rel="<?php echo $categ['slug']; ?>"><?php echo $categ['label']; ?></option>
             <?php } ?>
           </select>
         </p>
