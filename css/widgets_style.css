@@ -1,0 +1,23 @@
+/**
+
+ */
+.bomWidgetWrapper,
+.bomWidgetWrapper .bomWidgetTitle{
+  font-family:Arial,Helvetica,sans-serif !important;
+}
+
+.bomWidgetWrapper .bomWidgetTitle{
+  font-weight:normal;
+}
+.bomWidgetWrapper .bomWidgetList{
+  margin:0 !important;
+  padding:0 !important;
+}
+
+.bomWidgetWrapper .bomWidgetList li{
+  margin:0 !important;
+  padding: 3px 0 5px 2px !important;
+}
+.bomWidgetWrapper .bomWidgetList li:before{
+  content:normal !important;
+}

@@ -1,0 +1,225 @@
+/**
+
+ */
+.spaceR5{ margin-right:5px;}
+.spaceT5{ margin-top:5px;}
+.spaceT0{ margin-top:0px;}
+.spaceT10{ margin-top:10px;}
+.bgWhite{ background-color:#fff;}
+.bgBlack{ background-color:#000;}
+.h1 span{ margin-left:15px;}
+.clear{
+  clear:both;
+}
+.bomWidgetCustomNav, .bomWidgetGenerator , .bomWidgetGenerator .panel, .bomWidgetPreview{
+  float:left;
+}
+.bomWidgetCustomNav{
+  width:120px;
+  margin-right:20px;
+  border-top:1px solid #aaa;
+  border-bottom:1px solid #aaa;
+  background:#fff;
+}
+
+.bomWidgetCustomNav li{
+  margin:0;
+}
+
+.bomWidgetCustomNav li a{
+  display:block;
+  padding: 1px 5px 3px 12px;
+  font-size:11px;
+  text-decoration:none;
+  border-right:1px solid #aaa;
+  background:url(../../../../wp-admin/images/menu-dark.gif) no-repeat left bottom;
+}
+.bomWidgetCustomNav li a:focus,
+.bomWidgetCustomNav li a:hover{
+  background-color:#eaf2fa;
+  color:#000;
+}
+.bomWidgetCustomNav li.current a,
+.bomWidgetCustomNav li.current a:focus,
+.bomWidgetCustomNav li.current a a:hover{
+  background-position: 0 0;
+  background-color:#f5f5f5;
+  color:#000;
+  font-weight:bold;
+}
+.bomWidgetGenerator .panel{
+  width: 450px;
+  margin-right:10px;
+  min-height:350px;
+}
+.bomColorBox{
+  margin-right:10px;
+  cursor:pointer;
+  display:block;
+  background-image:url(../images/select2.png);
+  background-position:center;
+  width:28px;
+  height:28px;
+  float:left
+}
+.colorLabel{
+  display:block;
+  border:2px solid #dcdfe4;
+  border-radius:2px;
+  height:24px;
+  width:24px;
+}
+.colorLabel span{
+  display:block;
+  border:1px solid #fff;
+  width:22px;
+  height:22px;
+}
+.infoPicto{
+  background-position: -374px -387px;
+  padding: 4px 10px;
+}
+.bomColorField{
+  width: 80px;
+  float:left;
+  margin-right:5px;
+}
+.bomColorFieldset .label{
+  width: 185px;
+  margin-right:5px;
+  float:left;
+}
+.bomWidgetPreview{
+  width:250px;
+  background-color:#f1f1f1;
+  border:1px solid #d8deea;
+  border-radius:3px;
+}
+.bomWidgetPreview .arrow{
+  border-color: #f9f9f9 #f1f1f1 #f9f9f9 #f9f9f9;
+  font-size:0;
+  line-height:0;
+  width:0;
+  border-style:solid;
+  border-width: 15px 15px 15px 0;
+  display:block;
+  position:absolute;
+  left:-15px;
+  top:50%;
+  margin-top:-15px;
+}
+.bomWidgetPreview h3{
+  margin-top:0;
+}
+.bomWidgetPreviewWrapper{
+  padding:15px 20px;
+  position:relative;
+}
+.bomWidgetWrapper{
+  box-shadow: 3px 3px 5px #ddd;
+}
+.panel-preferences input{
+  width:210px;
+}
+.panel-preferences select{
+  width:220px;
+}
+#widgetNumberDisplay{ width:auto;}
+.labelDimension{
+  font-weight:bold;
+  float:left;
+  width: 60px;
+}
+.inputDimension{
+  width: 40px;
+  margin-right:5px;
+}
+span.else{
+  font-weight:bold;
+  margin:0 20px;
+}
+.widget-tsb{
+  padding: 15px;
+  
+}
+.widget-tsb .h3{
+  text-transform:none;
+  margin-bottom:5px;
+}
+.widget-tsb .bbd{ margin-bottom:10px;}
+.widget-tsb .ui-tabs-nav{
+  border-bottom:0;
+}
+.widget-tsb .ui-tabs-nav li{
+  float:none;
+  background-color:#e8f0f5;
+  margin-right:5px;
+  top:0;
+  text-transform:none;
+  font-size:12px;
+  font-weight:normal;
+  padding:8px 10px;
+  border-color:#dcdcdc;
+}
+.widget-tsb .ui-tabs-nav li.lastTab{border-width:1px 0;}
+.widget-tsb .ui-tabs-nav li .arrow{
+  display:none;
+}
+.widget-tsb .ui-tabs-nav .ui-tabs-selected{
+  background:#000;
+  font-weight:bold;
+  margin-right:0;
+}
+.widget-tsb .ui-tabs-nav .ui-tabs-selected .arrow{
+  border-color: #fff #fff #fff #000;
+  font-size:0;
+  line-height:0;
+  width:0;
+  border-style:solid;
+  border-width: 15px 9px 15px 12px;
+  display:block;
+  position:absolute;
+  right:-31px;
+  top:50%;
+  margin-top:-15px;
+}
+.widget-tsb .ui-tabs-nav a, .widget-tsb .ui-tabs-nav a:hover, .widget-tsb .ui-tabs-nav a:active, .widget-tsb .ui-tabs-nav a:focus{
+  color:#048;
+} 
+.widget-tsb .ui-tabs-nav .ui-tabs-selected a{
+  color:#fff;
+}
+.widget-tsb .ui-state-default{
+  border-width:1px 0 0;
+  padding:0;
+}
+.widget-tsb .ui-state-active{
+  border-color:#dfdfdf;
+}
+.widget-tsb .ui-tabs-panel{
+  padding:10px 10px;
+  min-height:130px;
+}
+.ui-dialog-titlebar-close {
+  background-position: -435px -324px;
+  display: block;
+  height: 11px;
+  position: absolute;
+  right: 3px;
+  text-indent: -9999px;
+  top: 3px;
+  width: 11px;
+}
+#bomWidgetPrevisualization .bomWidgetWrapper{
+  width:auto;
+}
+#bomWidgetPrevisualization .bomWidgetWrapper .bomWidgetList{
+  height:auto;
+  overflow:auto;
+}
+#bomWidgetPrevisualization .bomWidgetWrapper .bomWidgetTitle{
+  font-family : Arial, Helvetica, sans-serif;
+  text-shadow: none;
+  font-style:normal;
+  line-height:normal;
+}

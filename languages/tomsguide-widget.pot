@@ -1,0 +1,194 @@
+# Copyright (C) 2010 Tom's Guide Download
+# This file is distributed under the same license as the Tom's Guide Download package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tom's Guide Download 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/tomsguide-widget\n"
+"POT-Creation-Date: 2011-05-31 09:18:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin.php:29
+msgid "Tom's Guide Widget Admin"
+msgstr ""
+
+#: admin.php:32
+msgid "Customize an active widget"
+msgstr ""
+
+#: admin.php:38
+msgid "Go"
+msgstr ""
+
+#: admin.php:44 admin.php:168 admin.php:172
+msgid "Or"
+msgstr ""
+
+#: admin.php:48
+msgid "Change your default widget settings"
+msgstr ""
+
+#: admin.php:51
+msgid "Customize your Download Widget"
+msgstr ""
+
+#: admin.php:55
+msgid "Preferences"
+msgstr ""
+
+#: admin.php:56
+msgid "Appearence"
+msgstr ""
+
+#: admin.php:57
+msgid "Dimensions"
+msgstr ""
+
+#: admin.php:61 control.php:42
+msgid "Widget Title"
+msgstr ""
+
+#: admin.php:65 control.php:46
+msgid "Operating System"
+msgstr ""
+
+#: admin.php:67 admin.php:83 admin.php:92 control.php:48 control.php:64
+#: control.php:73
+msgid "All"
+msgstr ""
+
+#: admin.php:74 control.php:55
+msgid "Content language"
+msgstr ""
+
+#: admin.php:81 admin.php:90 control.php:62 control.php:71
+msgid "Category"
+msgstr ""
+
+#: admin.php:114 control.php:95
+msgid "Sort by"
+msgstr ""
+
+#: admin.php:116 control.php:97
+msgid "Most popular"
+msgstr ""
+
+#: admin.php:117 control.php:98
+msgid "Newest"
+msgstr ""
+
+#: admin.php:118 control.php:99
+msgid "Most downloaded this week"
+msgstr ""
+
+#: admin.php:122 control.php:103
+msgid "Number of softwares"
+msgstr ""
+
+#: admin.php:133
+msgid "Colors"
+msgstr ""
+
+#: admin.php:136
+msgid "Title background color"
+msgstr ""
+
+#: admin.php:140
+msgid "Title color"
+msgstr ""
+
+#: admin.php:144
+msgid "Text background color"
+msgstr ""
+
+#: admin.php:148
+msgid "Text color"
+msgstr ""
+
+#: admin.php:152
+msgid "Arrow color"
+msgstr ""
+
+#: admin.php:156
+msgid "Border radius"
+msgstr ""
+
+#: admin.php:158
+msgid "None"
+msgstr ""
+
+#: admin.php:164
+msgid "Works only on"
+msgstr ""
+
+#: admin.php:168
+msgid "Width"
+msgstr ""
+
+#: admin.php:169
+msgid "auto width"
+msgstr ""
+
+#: admin.php:172
+msgid "Height"
+msgstr ""
+
+#: admin.php:174
+msgid "auto height"
+msgstr ""
+
+#: admin.php:176
+msgid "Note"
+msgstr ""
+
+#: admin.php:176
+msgid "Widget size won't update in preview"
+msgstr ""
+
+#: admin.php:179
+msgid "Update options &raquo;"
+msgstr ""
+
+#: admin.php:179
+msgid "Cancel and return to main page"
+msgstr ""
+
+#: admin.php:183
+msgid "Widget preview"
+msgstr ""
+
+#: admin.php:206
+msgid "Tom's Guide Widget settings"
+msgstr ""
+
+#: tomsguide-widget.php:34
+msgid "Software Download"
+msgstr ""
+
+#. #-#-#-#-#  tomsguide-widget.pot (Tom's Guide Download 1.0.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: tomsguide-widget.php:65
+msgid "Tom's Guide Download"
+msgstr ""
+
+#. #-#-#-#-#  tomsguide-widget.pot (Tom's Guide Download 1.0.0)  #-#-#-#-#
+#. Description of the plugin/theme
+#: tomsguide-widget.php:85 tomsguide-widget.php:92
+msgid "Display the download contents from Tom's Guide"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.tomsguide.fr/widgets/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Best of Media"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.bestofmedia.com/"
+msgstr ""
