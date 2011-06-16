@@ -39,7 +39,7 @@ function widget_tomsguideDownload($args, $vars = array()) { //WIDGET DISPLAYED
 <?php echo($options['widgetWidth']!=200 && is_numeric($options['widgetWidth']))?', \'widgetWidth\': '.$options['widgetWidth']:''; ?>
 <?php echo($options['widgetWidth']=='auto')?', \'widgetWidth\':\'auto\'':''; ?>
 <?php echo($options['widgetHeight']!=300 && is_numeric($options['widgetHeight']))?', \'widgetHeight\': '.$options['widgetHeight']:''; ?>
-<?php echo$options['dldOs']!=''?', \'dldOs\': \''.$options['dldOs'].'\'':''; ?>
+<?php echo$options['os']!=''?', \'os\': \''.$options['os'].'\'':''; ?>
 <?php echo$options['dldCateg']!=''?', \'dldCateg\': '.$options['dldCateg']:''; ?>
 <?php echo$options['dldSort']!=''?', \'dldSort\': \''.$options['dldSort'].'\'':''; ?>
 <?php echo$options['nbItemsLimit']!=10?', \'nbItemsLimit\': '.$options['nbItemsLimit']:''; ?>

@@ -13,7 +13,7 @@ BOM.Widget = function(params){
     'widgetWidth': 202,
     'widgetHeight': 'auto',
     'widgetTitle': 'Software Download',
-    'dldOs':'',
+    'os':'',
     'dldCateg':null,
     'dldSort':'most-popular',
     'nbItemsLimit':10,
@@ -30,7 +30,7 @@ BOM.Widget = function(params){
     this.params.widgetWidth = params.widgetWidth || this.params.widgetWidth;
     this.params.widgetHeight = params.widgetHeight || this.params.widgetHeight;
     this.params.widgetTitle = params.widgetTitle || this.params.widgetTitle;
-    this.params.dldOs = params.dldOs || this.params.dldOs;
+    this.params.os = params.os || this.params.os;
     this.params.dldCateg = params.dldCateg || this.params.dldCateg;
     this.params.dldSort = params.dldSort || this.params.dldSort;
     this.params.titleBackgroundColor = params.titleBackgroundColor || this.params.titleBackgroundColor;
@@ -196,7 +196,7 @@ BOM.Widget = function(params){
     jsonp.type = 'text/javascript'; 
     jsonp.async = true;
     jsonp.src = this.params.contentUrl+'.json?callback=bomWidget['+this.params.idWidget+'].render&limit='+this.params.nbItemsLimit;
-    if(this.params.dldOs != '')jsonp.src += '&dldOs='+this.params.dldOs;
+    if(this.params.os != '')jsonp.src += '&os='+this.params.os;
     if(this.params.dldSort != '')jsonp.src += '&sort='+this.params.dldSort;
     this.widgetWrapper.parentNode.insertBefore(jsonp,this.widgetWrapper);
   };

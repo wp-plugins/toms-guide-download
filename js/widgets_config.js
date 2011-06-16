@@ -91,7 +91,7 @@ jQuery(document).ready(function() {
 ((formData.widgetWidth!=200 && !isNaN(parseInt(formData.widgetWidth)))?',\n    \'widgetWidth\': '+parseInt(formData.widgetWidth):'')+
 ((formData.widgetWidth=='auto')?',\n    \'widgetWidth\':\'auto\'':'')+
 ((formData.widgetHeight!=300 && !isNaN(parseInt(formData.widgetHeight)))?',\n    \'widgetHeight\': '+parseInt(formData.widgetHeight):'')+
-(formData.dldOs!=''?',\n    \'dldOs\': \''+formData.dldOs+'\'':'')+
+(formData.os!=''?',\n    \'os\': \''+formData.os+'\'':'')+
 (formData.dldCateg!=''?',\n    \'dldCateg\': '+formData.dldCateg:'')+
 (formData.dldSort!=''?',\n    \'dldSort\': \''+formData.dldSort+'\'':'')+
 (formData.nbItemsLimit!=10?',\n    \'nbItemsLimit\': '+formData.nbItemsLimit:'')+
