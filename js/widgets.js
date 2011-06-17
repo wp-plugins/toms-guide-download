@@ -1,15 +1,11 @@
 /*Widget BOM */
 
-/*param env syndication */
-var ENV = 'prod';
-var baseSyndicationUrl = {
-  'prod':'http://syndication.bestofmedia.com/'
-};
-/*end param env syndication */
+var baseSyndicationUrl = 'http://syndication.bestofmedia.com/';
+
 var BOM = BOM || {};
 BOM.Widget = function(params){
   this.params = {
-    'baseSyndicationUrl':baseSyndicationUrl[ENV],
+    'baseSyndicationUrl':baseSyndicationUrl,
     'widgetWidth': 202,
     'widgetHeight': 'auto',
     'widgetTitle': 'Software Download',
@@ -17,7 +13,7 @@ BOM.Widget = function(params){
     'dldCateg':null,
     'dldSort':'most-popular',
     'nbItemsLimit':10,
-    'contentUrl':baseSyndicationUrl[ENV]+'download/v1/software/index',
+    'contentUrl':baseSyndicationUrl+'download/v1/software/index',
     'titleBackgroundColor': '#206FB1',
     'titleColor': '#ffffff',
     'listColor':'#004488',
@@ -40,7 +36,7 @@ BOM.Widget = function(params){
     this.params.borderRadius = params.borderRadius || this.params.borderRadius;
     this.params.arrowColor = params.arrowColor || this.params.arrowColor;
     this.params.nbItemsLimit = params.nbItemsLimit || this.params.nbItemsLimit;
-    this.params.contentUrl = isNaN(params.dldCateg)? this.params.contentUrl: baseSyndicationUrl[ENV]+'download/v1/software/category/'+params.dldCateg;
+    this.params.contentUrl = isNaN(params.dldCateg)? this.params.contentUrl: baseSyndicationUrl+'download/v1/software/category/'+params.dldCateg;
     this.widgetWrapper = document.getElementById('bomWidget'+this.params.idWidget);
     this.style();
   };
