@@ -1,6 +1,6 @@
 === Tom's Guide Download Widget ===
 Contributors: Best of Media
-Tags: download, télécharger, tom's guide, infos du net
+Tags: download, télécharger, tom's guide
 Requires at least: 2.8
 Tested up to: 3.1.3
 Stable tag: 1.0.0
@@ -10,7 +10,7 @@ License: GPLv2 or later
 
 == Description ==
 
-Tom's Guide Download Widget will display in real time download contents from its main websites http://www.tomsguide.com/us/download (English) and http://www.infos-du-net.com/telecharger/ (French)
+Tom's Guide Download Widget will display in real time download content from its main websites http://www.tomsguide.com/us/download/ (English) and http://www.infos-du-net.com/telecharger/ (French)
 
 == Installation ==
 
