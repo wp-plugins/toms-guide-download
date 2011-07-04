@@ -43,11 +43,11 @@ function tomsguideWidget_control($args) //WIDGET CONTROLER on WP Widgets panel
     <input class="widefat" type="text" id="widgetTitle-<?php echo $widget_number; ?>" name="<?php echo $prefix.'['.$widget_number.']'.'[widgetTitle]'; ?>" value="<?php echo stripslashes($opts['widgetTitle']);?>" />
   </p>
   <p>
-    <label for="dldOs-<?php echo $widget_number; ?>"><?php _e('Operating System','tomsguide-widget'); ?>: </label><br/>
-    <select class="widefat" id="dldOs-<?php echo $widget_number; ?>" name="<?php echo $prefix.'['.$widget_number.']'.'[dldOs]'; ?>">
-      <option value=""<?php echo $opts['dldOs']==""?" selected=\"selected\"":""; ?>><?php _e('All','tomsguide-widget'); ?></option>
+    <label for="os-<?php echo $widget_number; ?>"><?php _e('Operating System','tomsguide-widget'); ?>: </label><br/>
+    <select class="widefat" id="os-<?php echo $widget_number; ?>" name="<?php echo $prefix.'['.$widget_number.']'.'[os]'; ?>">
+      <option value=""<?php echo $opts['os']==""?" selected=\"selected\"":""; ?>><?php _e('All','tomsguide-widget'); ?></option>
       <?php foreach ($arrOs as $Os){ ?>
-      <option value="<?php echo $Os; ?>"<?php echo $opts['dldOs']==$Os?" selected=\"selected\"":""; ?>><?php echo $Os; ?></option>
+      <option value="<?php echo $Os; ?>"<?php echo $opts['os']==$Os?" selected=\"selected\"":""; ?>><?php echo $Os; ?></option>
       <?php } ?>
     </select>
   </p>

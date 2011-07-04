@@ -1,23 +1,19 @@
 /*Widget BOM */
 
-/*param env syndication */
-var ENV = 'prod';
-var baseSyndicationUrl = {
-  'prod':'http://syndication.bestofmedia.com/'
-};
-/*end param env syndication */
+var baseSyndicationUrl = 'http://syndication.bestofmedia.com/';
+
 var BOM = BOM || {};
 BOM.Widget = function(params){
   this.params = {
-    'baseSyndicationUrl':baseSyndicationUrl[ENV],
+    'baseSyndicationUrl':baseSyndicationUrl,
     'widgetWidth': 202,
     'widgetHeight': 'auto',
     'widgetTitle': 'Software Download',
-    'dldOs':'',
+    'os':'',
     'dldCateg':null,
     'dldSort':'most-popular',
     'nbItemsLimit':10,
-    'contentUrl':baseSyndicationUrl[ENV]+'download/v1/software/index',
+    'contentUrl':baseSyndicationUrl+'download/v1/software/index',
     'titleBackgroundColor': '#206FB1',
     'titleColor': '#ffffff',
     'listColor':'#004488',
@@ -30,7 +26,7 @@ BOM.Widget = function(params){
     this.params.widgetWidth = params.widgetWidth || this.params.widgetWidth;
     this.params.widgetHeight = params.widgetHeight || this.params.widgetHeight;
     this.params.widgetTitle = params.widgetTitle || this.params.widgetTitle;
-    this.params.dldOs = params.dldOs || this.params.dldOs;
+    this.params.os = params.os || this.params.os;
     this.params.dldCateg = params.dldCateg || this.params.dldCateg;
     this.params.dldSort = params.dldSort || this.params.dldSort;
     this.params.titleBackgroundColor = params.titleBackgroundColor || this.params.titleBackgroundColor;
@@ -40,7 +36,7 @@ BOM.Widget = function(params){
     this.params.borderRadius = params.borderRadius || this.params.borderRadius;
     this.params.arrowColor = params.arrowColor || this.params.arrowColor;
     this.params.nbItemsLimit = params.nbItemsLimit || this.params.nbItemsLimit;
-    this.params.contentUrl = isNaN(params.dldCateg)? this.params.contentUrl: baseSyndicationUrl[ENV]+'download/v1/software/category/'+params.dldCateg;
+    this.params.contentUrl = isNaN(params.dldCateg)? this.params.contentUrl: baseSyndicationUrl+'download/v1/software/category/'+params.dldCateg;
     this.widgetWrapper = document.getElementById('bomWidget'+this.params.idWidget);
     this.style();
   };
@@ -196,7 +192,7 @@ BOM.Widget = function(params){
     jsonp.type = 'text/javascript'; 
     jsonp.async = true;
     jsonp.src = this.params.contentUrl+'.json?callback=bomWidget['+this.params.idWidget+'].render&limit='+this.params.nbItemsLimit;
-    if(this.params.dldOs != '')jsonp.src += '&dldOs='+this.params.dldOs;
+    if(this.params.os != '')jsonp.src += '&os='+this.params.os;
     if(this.params.dldSort != '')jsonp.src += '&sort='+this.params.dldSort;
     this.widgetWrapper.parentNode.insertBefore(jsonp,this.widgetWrapper);
   };

@@ -62,11 +62,11 @@ function tomsguideWidget_admin() //WIDGET ADMIN PANEL
           <input type="text" id="widgetTitle" name="widgetTitle" value="<?php echo stripslashes($opts['widgetTitle']);?>" />
         </p>
         <p>
-          <label for="dldOs"><strong><?php _e('Operating System','tomsguide-widget'); ?>: </strong></label><br/>
-          <select id="dldOs" name="dldOs">
-            <option value=""<?php echo $opts['dldOs']==""?" selected=\"selected\"":""; ?>"><?php _e('All','tomsguide-widget'); ?></option>
+          <label for="os"><strong><?php _e('Operating System','tomsguide-widget'); ?>: </strong></label><br/>
+          <select id="os" name="os">
+            <option value=""<?php echo $opts['os']==""?" selected=\"selected\"":""; ?>"><?php _e('All','tomsguide-widget'); ?></option>
             <?php foreach ($arrOs as $Os){ ?>
-            <option value="<?php echo $Os; ?>"<?php echo $opts['dldOs']==$Os?" selected=\"selected\"":""; ?>><?php echo $Os; ?></option>
+            <option value="<?php echo $Os; ?>"<?php echo $opts['os']==$Os?" selected=\"selected\"":""; ?>><?php echo $Os; ?></option>
             <?php } ?>
           </select>
         </p>
