@@ -14,8 +14,13 @@ Tom's Guide Download Widget will display in real time download content from its 
 
 == Installation ==
 
-Upload the Tom's Guide Download Widget plugin to your blog, Activate it, then drag the widget to your chosen widget area (as many times as you want).
-You can then customize it directly on the widgets control page, or by clicking on the Tom's Guide plugin settings.
+* Upload the Tom's Guide Download Widget plugin to your blog
+
+* Activate it
+
+* Then drag the widget to your chosen widget area (as many times as you want).
+
+* You can then customize it directly on the widgets control page, or by clicking on the Tom's Guide plugin settings.
 
 == Changelog ==
 
@@ -24,5 +29,5 @@ You can then customize it directly on the widgets control page, or by clicking o
 
 == Screenshots ==
 
-1. Display in real time download contents from Tom's Guide
+1. Display in real time download contents from Tom's Guide.
 2. Customize your widget to adapt it to your Wordpress theme.
