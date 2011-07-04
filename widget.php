@@ -10,7 +10,7 @@ function widget_tomsguideDownload($args, $vars = array()) { //WIDGET DISPLAYED
 
   $tguListingUrl = $arrHomeDld[$options['dldSource']].$arrSoftwareDld[$options['dldSource']];
   if($options['dldCateg']!= ''){
-    $tguListingUrl .= '-'.$arrCateg[$options['dldSource']][$options['dldCateg']]['slug'].',0702-'.$options['dldCateg'].'html';
+    $tguListingUrl .= '-'.$arrCateg[$options['dldSource']][$options['dldCateg']]['slug'].',0702-'.$options['dldCateg'].'.html';
   } else {
     $tguListingUrl .= ',0701-5.html';
   }
