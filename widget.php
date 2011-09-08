@@ -24,7 +24,7 @@ function widget_tomsguideDownload($args, $vars = array()) { //WIDGET DISPLAYED
   </div>
   <div class="bomWidgetFt">
     <div class="bomWidgetFtWrapper">
-      <span>Powered by</span> <a href="<?php echo $arrHomeDld[$options['dldSource']]?>" class="bomWidgetLogo"><img src="<?php echo plugins_url('/images/', __FILE__) ?>tgu_dld_widget_sprite.png" alt="Tom's Guide"/></a>
+      <span>Powered by Tom's Guide</span> <a href="<?php echo $arrHomeDld[$options['dldSource']]?>" class="bomWidgetLogo"><img src="<?php echo plugins_url('/images/', __FILE__) ?>tgu_dld_widget_sprite.png" alt="Tom's Guide"/></a>
     </div>
   </div>
 </div>

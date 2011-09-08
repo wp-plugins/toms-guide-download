@@ -82,7 +82,7 @@ jQuery(document).ready(function() {
 '    <ul id="bomWidgetList'+randomId+'" class="bomWidgetList">\n'+
 '    </ul>\n'+
 '  </div>\n'+
-'  <div class="bomWidgetFt"><div class="bomWidgetFtWrapper"><span>Powered by</span> <a href="'+dldBaseUrl[dldIdSite]+'" class="bomWidgetLogo"><img src="'+bomPluginPath+'images/tgu_dld_widget_sprite.png" alt="Tom\'s Guide"/></a></div></div>\n'+
+'  <div class="bomWidgetFt"><div class="bomWidgetFtWrapper"><span>Powered by Tom\'s Guide</span> <a href="'+dldBaseUrl[dldIdSite]+'" class="bomWidgetLogo"><img src="'+bomPluginPath+'images/tgu_dld_widget_sprite.png" alt="Tom\'s Guide"/></a></div></div>\n'+
 '</div>\n'+
 '<script type="text/javascript">\n'+
 '  var bomWidget = bomWidget || [];\n'+
