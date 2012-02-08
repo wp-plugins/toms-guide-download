@@ -28,7 +28,7 @@ $arrCateg = array(
 );
 $arrHomeDld = array(
   '' => 'http://www.tomsguide.com/us/download/',
-  'fr_FR' => 'http://www.infos-du-net.com/telecharger/'
+  'fr_FR' => 'http://telecharger.tomsguide.fr/'
 );
 $arrSoftwareDld = array(
   '' => 'Software',

@@ -8,7 +8,7 @@ var softwareLang = [];
 softwareLang[20] = 'Logiciels';
 softwareLang[21] = 'Software';
 var dldBaseUrl = [];
-dldBaseUrl[20] = 'http://www.infos-du-net.com/telecharger/';
+dldBaseUrl[20] = 'http://telecharger.tomsguide.fr/';
 dldBaseUrl[21] = 'http://www.tomsguide.com/us/download/';
 jQuery(document).ready(function() {
   /*Color pickers */
