@@ -3,7 +3,7 @@ Contributors: Best of Media
 Tags: download, télécharger, tom's guide
 Requires at least: 2.8
 Tested up to: 3.1.3
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 
 
@@ -23,6 +23,9 @@ Tom's Guide Download Widget will display in real time download content from its 
 * You can then customize it directly on the widgets control page, or by clicking on the Tom's Guide plugin settings.
 
 == Changelog ==
+
+= 1.0.4 =
+* Fix version
 
 = 1.0.3 =
 * Update english domain name

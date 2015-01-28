@@ -5,7 +5,7 @@ Plugin URI: http://www.tomsguide.com/widgets/
 Description: Display the download contents from Tom's Guide
 Author: Best of Media
 Author URI: http://www.tomsguide.com/
-Version: 1.0.0
+Version: 1.0.3
 License: GPLv2 or later
 */
 
@@ -61,7 +61,7 @@ function tomsguideWidget_init()
       wp_register_style('bomwidgetstyle', TGU_PLUGIN_URL.'css/widgets_style.css');
       wp_enqueue_script('bomwidgetjs');
       wp_enqueue_style('bomwidgetstyle');
-      
+
       $prefix = 'tomsguide-widget'; // $id prefix
       $name = __('Tom\'s Guide Download', 'tomsguide-widget');
       //update_option("widget_tomsguideDownload", array());
@@ -70,7 +70,7 @@ function tomsguideWidget_init()
         $defaultOptions = $tguDefaultWidgetOption;
         update_option('widget_defaultTomsguideDownload', $defaultOptions);
       }
-      
+
       $options = get_option('widget_tomsguideDownload');
       if(isset($options[0])) unset($options[0]);
       tguLoadPluginTextdomain();
@@ -93,12 +93,12 @@ function tomsguideWidget_init()
         wp_register_sidebar_widget($prefix.'-'.$widget_number, $name, 'widget_tomsguideDownload',  array('description'=> __('Display the download contents from Tom\'s Guide','tomsguide-widget')), array( 'number' => $widget_number ));
         wp_register_widget_control($prefix.'-'.$widget_number, $name, 'tomsguideWidget_control', array('id_base'=>$prefix), array( 'number' => $widget_number ));
       }
-      
-    } 
+
+    }
   if ( is_admin() ){
     add_action('admin_menu','add_tomsguide_widget_admin');
   }
-  
+
 }
 if(!function_exists('tguLoadPluginTextdomain')){
   function tguLoadPluginTextdomain() {
@@ -110,19 +110,19 @@ if(!function_exists('tguWidget_update')){
 	function tguWidget_update($id_prefix, $options, $post, $sidebar, $option_name = ''){
 		global $wp_registered_widgets;
 		static $updated = false;
- 
+
 		// get active sidebar
 		$sidebars_widgets = wp_get_sidebars_widgets();
 		if ( isset($sidebars_widgets[$sidebar]) )
 			$this_sidebar =& $sidebars_widgets[$sidebar];
 		else
 			$this_sidebar = array();
-    
+
 		// search unused options
 		foreach ( $this_sidebar as $_widget_id ) {
 			if(preg_match('/'.$id_prefix.'-([0-9]+)/i', $_widget_id, $match)){
 				$widget_number = $match[1];
- 
+
 				// $_POST['widget-id'] contain current widgets set for current sidebar
 				// $this_sidebar is not updated yet, so we can determine which was deleted
 				if(!in_array($match[0], $_POST['widget-id'])){
@@ -130,13 +130,13 @@ if(!function_exists('tguWidget_update')){
 				}
 			}
 		}
- 
+
 		// update database
 		if(!empty($option_name)){
 			update_option($option_name, $options);
 			$updated = true;
 		}
- 
+
 		// return updated array
 		return $options;
 	}
