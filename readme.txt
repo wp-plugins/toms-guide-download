@@ -3,14 +3,14 @@ Contributors: Best of Media
 Tags: download, télécharger, tom's guide
 Requires at least: 2.8
 Tested up to: 3.1.3
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 
 
 
 == Description ==
 
-Tom's Guide Download Widget will display in real time download content from its main websites http://www.tomsguide.com/us/download/ (English) and http://telecharger.tomsguide.fr/ (French)
+Tom's Guide Download Widget will display in real time download content from its main websites http://downloads.tomsguide.com/ (English) and http://telecharger.tomsguide.fr/ (French)
 
 == Installation ==
 
@@ -24,13 +24,16 @@ Tom's Guide Download Widget will display in real time download content from its 
 
 == Changelog ==
 
+= 1.0.3 =
+* Update english domain name
+
 = 1.0.2 =
 * Update french domain name
 
-= 1.0.1 = 
+= 1.0.1 =
 * Some bug fixes for Internet Explorer 6
 
-= 1.0.0 = 
+= 1.0.0 =
 * First release of the plugin
 
 == Screenshots ==

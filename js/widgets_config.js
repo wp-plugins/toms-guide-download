@@ -9,7 +9,7 @@ softwareLang[20] = 'Logiciels';
 softwareLang[21] = 'Software';
 var dldBaseUrl = [];
 dldBaseUrl[20] = 'http://telecharger.tomsguide.fr/';
-dldBaseUrl[21] = 'http://www.tomsguide.com/us/download/';
+dldBaseUrl[21] = 'http://downloads.tomsguide.com/';
 jQuery(document).ready(function() {
   /*Color pickers */
   var allBomColorBox = jQuery('.bomColorBox');
@@ -41,13 +41,13 @@ jQuery(document).ready(function() {
   jQuery('.bomColorField').bind('focus',function(){
     jQuery(this).next('.bomColorBox').ColorPickerShow();
   });
-  
+
   jQuery('.arrowColorInput').bind('click',function(){
     if(jQuery(this).get(0).checked){
       jQuery('.bomWidgetWrapper .bomWidgetPicto').css('backgroundPosition',(jQuery(this).val()=='black'?'0':'-8px')+' -15px');
     }
   });
-  
+
   /*dimensions input*/
   jQuery('.widgetAutoDimension').bind('click',function(){
     if(this.checked){
@@ -56,8 +56,8 @@ jQuery(document).ready(function() {
         jQuery('#'+jQuery(this).attr('rel')).removeAttr('disabled');
     }
   });
-  
-  
+
+
   /* update code */
   jQuery('#widgetGenerator').bind('configChanged',function(event,noupdate){
     var formParams = jQuery('#widgetGenerator').serializeArray();
@@ -104,16 +104,16 @@ jQuery(document).ready(function() {
 '\n  }));\n'+
 '</script>';
     if(!noupdate) jQuery('#bomWidgetPrevisualization').html(outputCode);
-    
+
   });
-  
+
   jQuery('#widgetGenerator select,#widgetGenerator input').bind('change',function(){
     jQuery('#widgetGenerator').trigger('configChanged',jQuery(this).hasClass('nopreview'));
   });
-  
-  
-  
-  
+
+
+
+
   jQuery('#widgetGenerator').trigger('configChanged');
 });
 
