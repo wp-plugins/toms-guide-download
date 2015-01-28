@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Tom's guide Download package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Tom's guide Download 1.0.4\n"
+"Project-Id-Version: Tom's guide Download 1.0.5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/tomsguide-widget\n"
 "POT-Creation-Date: 2011-05-31 09:18:04+00:00\n"
 "PO-Revision-Date: 2011-05-31 11:20+0100\n"
@@ -187,13 +187,13 @@ msgstr "Configuration Tom's Guide"
 msgid "Software Download"
 msgstr "Téléchargement de logiciels"
 
-#. #-#-#-#-#  tomsguide-widget.pot (Tom's Guide Download 1.0.4)  #-#-#-#-#
+#. #-#-#-#-#  tomsguide-widget.pot (Tom's Guide Download 1.0.5)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: tomsguide-widget.php:65
 msgid "Tom's Guide Download"
 msgstr "Téléchargement  Tom's Guide"
 
-#. #-#-#-#-#  tomsguide-widget.pot (Tom's Guide Download 1.0.4)  #-#-#-#-#
+#. #-#-#-#-#  tomsguide-widget.pot (Tom's Guide Download 1.0.5)  #-#-#-#-#
 #. Description of the plugin/theme
 #: tomsguide-widget.php:85
 #: tomsguide-widget.php:92

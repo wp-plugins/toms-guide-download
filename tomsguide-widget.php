@@ -5,7 +5,7 @@ Plugin URI: http://www.tomsguide.com/widgets/
 Description: Display the download contents from Tom's Guide
 Author: Best of Media
 Author URI: http://www.tomsguide.com/
-Version: 1.0.3
+Version: 1.0.5
 License: GPLv2 or later
 */
 
